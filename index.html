@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>siegeptr</title>
+  <meta name="description" content="Simple download page for MoP Classic Siege of Orgrimmar PTR addon testing.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316261f'/%3E%3Cpath fill='%23f2c35b' d='M8 23V9h4l4 7 4-7h4v14h-4v-8l-3 5h-2l-3-5v8H8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">siegeptr / Siege of Orgrimmar PTR</p>
+      <h1>AddOns for SoO PTR testing</h1>
+      <div class="meta-row" aria-label="Validation details">
+        <span>Validated April 24, 2026</span>
+        <span>PTR 5.5.4.67177</span>
+        <span>Discord @zridex</span>
+      </div>
+    </header>
+
+    <section class="scope" aria-labelledby="scope-title">
+      <h2 id="scope-title">Quick PTR pass</h2>
+      <p>These are quick compatibility fixes for raid testing. They were briefly tested until no addon errors showed up in the current pass, but they are not full addon releases or extensively maintained builds.</p>
+    </section>
+
+    <section class="bundle" aria-labelledby="bundle-title">
+      <div>
+        <span class="bundle-label">Bundle option</span>
+        <h2 id="bundle-title">Full pack</h2>
+        <p>Only the addon folders with local PTR compatibility edits, in one zip.</p>
+      </div>
+      <a class="button primary" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/mop-classic-ptr-addon-pack.zip" download>Download bundle <span>24 MB</span></a>
+    </section>
+
+    <section class="downloads" aria-labelledby="downloads-title">
+      <div class="section-head">
+        <h2 id="downloads-title">Separate downloads</h2>
+      </div>
+
+      <div class="download-list">
+        <article class="download-item">
+          <div>
+            <h3>ElvUI</h3>
+            <p>Includes ElvUI, libraries, and options.</p>
+          </div>
+          <a class="button" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/elvui.zip" download>Download <span>3.3 MB</span></a>
+        </article>
+
+        <article class="download-item">
+          <div>
+            <h3>Bartender4</h3>
+            <p>Action bar addon.</p>
+          </div>
+          <a class="button" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/bartender4.zip" download>Download <span>0.4 MB</span></a>
+        </article>
+
+        <article class="download-item">
+          <div>
+            <h3>Plater</h3>
+            <p>Nameplates.</p>
+          </div>
+          <a class="button" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/plater.zip" download>Download <span>4.1 MB</span></a>
+        </article>
+
+        <article class="download-item">
+          <div>
+            <h3>WeakAuras</h3>
+            <p>Includes core, options, archive, model paths, and templates.</p>
+          </div>
+          <a class="button" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/weakauras.zip" download>Download <span>10 MB</span></a>
+        </article>
+
+        <article class="download-item">
+          <div>
+            <h3>Details</h3>
+            <p>Includes Details and companion modules.</p>
+          </div>
+          <a class="button" href="https://github.com/zridex/siegeptr/releases/download/ptr-5.5.4-67177-20260424/details.zip" download>Download <span>6.4 MB</span></a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="install" aria-labelledby="install-title">
+      <h2 id="install-title">Install</h2>
+      <ol>
+        <li>Close the PTR client.</li>
+        <li>Unzip the download.</li>
+        <li>Open your World of Warcraft install folder.</li>
+        <li>Copy the addon folders into the PTR AddOns folder below.</li>
+        <li>Enable out-of-date addons if the client asks.</li>
+      </ol>
+      <div class="path-row">
+        <span>Inside your WoW folder</span>
+        <code>_classic_ptr_\Interface\AddOns</code>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
