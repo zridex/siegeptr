@@ -14,12 +14,14 @@
       <p class="eyebrow">siegeptr / Siege of Orgrimmar PTR</p>
       <h1>AddOns for SoO PTR testing</h1>
       <div class="meta-row" aria-label="Validation details">
-        <span>Validated April 24, 2026</span>
+        <span>Updated Apr 25, 2026 17:06 CEST</span>
         <span>PTR 5.5.4.67177</span>
         <span>Discord @zridex</span>
       </div>
     </header>
 
+    <div class="content-grid">
+      <div class="main-column">
     <section class="scope" aria-labelledby="scope-title">
       <h2 id="scope-title">Quick PTR pass</h2>
       <p>These are quick compatibility fixes for raid testing. They were briefly tested until no addon errors showed up in the current pass, but they are not full addon releases or extensively maintained builds.</p>
@@ -97,6 +99,60 @@
         <code>_classic_ptr_\Interface\AddOns</code>
       </div>
     </section>
+      </div>
+
+      <aside class="changelog" aria-labelledby="changelog-title">
+        <div class="section-head">
+          <div>
+            <span class="section-label">Latest changes</span>
+            <h2 id="changelog-title">Changelog</h2>
+          </div>
+          <p>Times are CEST.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item latest">
+            <time datetime="2026-04-25T17:06:00+02:00">Apr 25, 2026 17:06</time>
+            <div>
+              <h3>Plater dropdown font fallback</h3>
+              <p>Fixed PTR font asset errors in Plater option dropdowns when Plater is tested without other UI addons loaded.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time datetime="2026-04-25T16:43:00+02:00">Apr 25, 2026 16:43</time>
+            <div>
+              <h3>Plater statusbar fallback</h3>
+              <p>Added a safe health and power bar fallback for PTR clients missing <code>PixelUtil.SetStatusBarValue</code>.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time datetime="2026-04-24T10:17:00+02:00">Apr 24, 2026 10:17</time>
+            <div>
+              <h3>Bartender4 PTR keybind pass</h3>
+              <p>Refreshed the Bartender4 pack with PTR-safe action button behavior and Edit Mode compatibility fixes.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time datetime="2026-04-24T09:36:00+02:00">Apr 24, 2026 09:36</time>
+            <div>
+              <h3>Separate downloads added</h3>
+              <p>Added standalone addon zips alongside the full bundle so people can install only the patched pieces they want.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <time datetime="2026-04-24T09:21:00+02:00">Apr 24, 2026 09:21</time>
+            <div>
+              <h3>Initial SoO PTR page</h3>
+              <p>Published the simple download page for the local MoP Classic PTR compatibility pack.</p>
+            </div>
+          </article>
+        </div>
+      </aside>
+    </div>
   </main>
 </body>
 </html>
