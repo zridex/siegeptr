@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>siegeptr updater</title>
+  <meta name="description" content="Windows updater for the siegeptr MoP Classic PTR addon pack.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316261f'/%3E%3Cpath fill='%23f2c35b' d='M8 23V9h4l4 7 4-7h4v14h-4v-8l-3 5h-2l-3-5v8H8z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page updater-page">
+    <header class="hero updater-hero">
+      <nav class="site-switcher" aria-label="Site pages">
+        <a href="index.html">Addon downloads</a>
+        <a class="active" href="updater.html">Windows updater</a>
+      </nav>
+      <p class="eyebrow">siegeptr / Windows updater</p>
+      <h1>Update PTR AddOns without unpacking zips</h1>
+      <p class="intro">An optional Windows helper that pulls the current siegeptr addon zips, backs up existing folders, and installs only the selected patched addon families.</p>
+      <div class="updater-actions">
+        <a class="button primary" href="https://github.com/zridex/siegeptr/releases/download/updater-20260426-2127/SiegePTRUpdater.exe">Download updater <span>49 MB</span></a>
+      </div>
+    </header>
+
+    <section class="updater-showcase" aria-label="Updater overview">
+      <div class="app-window" aria-hidden="true">
+        <div class="app-titlebar">
+          <span>siegeptr updater</span>
+          <div class="window-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="app-body">
+          <div class="app-field">
+            <span>PTR AddOns folder</span>
+            <code>C:\Program Files (x86)\World of Warcraft\_classic_ptr_\Interface\AddOns</code>
+          </div>
+          <div class="app-packages">
+            <div class="app-package checked">
+              <span>ElvUI</span>
+              <strong>current</strong>
+            </div>
+            <div class="app-package checked">
+              <span>Bartender4</span>
+              <strong>update available</strong>
+            </div>
+            <div class="app-package checked">
+              <span>Plater</span>
+              <strong>current</strong>
+            </div>
+            <div class="app-package">
+              <span>WeakAuras</span>
+              <strong>not selected</strong>
+            </div>
+          </div>
+          <div class="app-log">
+            <p>[20:31:44] Checking published zip metadata...</p>
+            <p>[20:31:45] WoW status: closed</p>
+            <p>[20:31:46] Existing folders will be backed up first.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="updater-copy" id="how-it-works">
+        <span class="section-label">Updater flow</span>
+        <h2>How it works</h2>
+        <p>The updater uses the same files as the manual downloads page. It just handles the folder replacement step for you.</p>
+        <ol class="flow-list">
+          <li>Close the PTR client.</li>
+          <li>Open the updater and confirm the PTR AddOns folder.</li>
+          <li>Click Check updates.</li>
+          <li>Select the addon families you want.</li>
+          <li>Click Update selected. Existing folders are backed up first.</li>
+        </ol>
+        <div class="path-row compact">
+          <span>Prefer manual installs?</span>
+          <code>The zip downloads are still available on the Addon downloads page.</code>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

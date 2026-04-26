@@ -11,10 +11,14 @@
 <body>
   <main class="page">
     <header class="hero">
+      <nav class="site-switcher" aria-label="Site pages">
+        <a class="active" href="index.html">Addon downloads</a>
+        <a href="updater.html">Windows updater</a>
+      </nav>
       <p class="eyebrow">siegeptr / Siege of Orgrimmar PTR</p>
       <h1>AddOns for SoO PTR testing</h1>
       <div class="meta-row" aria-label="Validation details">
-        <span>Updated Apr 26, 2026 20:18 CEST</span>
+        <span>Updated Apr 26, 2026 21:27 CEST</span>
         <span>PTR 5.5.4.67177</span>
         <span>Discord @zridex</span>
       </div>
@@ -25,6 +29,15 @@
     <section class="scope" aria-labelledby="scope-title">
       <h2 id="scope-title">Quick PTR pass</h2>
       <p>These are quick compatibility fixes for raid testing. They were briefly tested until no addon errors showed up in the current pass, but they are not full addon releases or extensively maintained builds.</p>
+    </section>
+
+    <section class="updater-entry" aria-labelledby="updater-entry-title">
+      <div>
+        <span class="bundle-label">Optional helper</span>
+        <h2 id="updater-entry-title">Windows updater</h2>
+        <p>Prefer a guided install? The updater can check published zips, back up old folders, and update only the addon families you select.</p>
+      </div>
+      <a class="button" href="updater.html">View updater</a>
     </section>
 
     <section class="bundle" aria-labelledby="bundle-title">
@@ -112,6 +125,14 @@
 
         <div class="timeline">
           <article class="timeline-item latest">
+            <time datetime="2026-04-26T21:27:00+02:00">Apr 26, 2026 21:27</time>
+            <div>
+              <h3>Windows updater added</h3>
+              <p>Added an optional updater page and Windows helper for checking published addon zips, backing up old folders, and updating selected addon families.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item">
             <time datetime="2026-04-26T20:18:00+02:00">Apr 26, 2026 20:18</time>
             <div>
               <h3>Bartender4 pet bar note</h3>
