@@ -1,6 +1,6 @@
 # siegeptr
 
-Simple download page for a MoP Classic PTR addon compatibility pack validated for Siege of Orgrimmar PTR testing.
+Simple download page for MoP Classic addon compatibility fixes validated during Siege of Orgrimmar PTR and live-merge testing.
 
 The page is intentionally static and has no ads, tracking, donation links, or bundled account/profile data.
 

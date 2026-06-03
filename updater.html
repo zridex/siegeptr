@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>siegeptr updater</title>
-  <meta name="description" content="Windows updater for the siegeptr MoP Classic PTR addon pack.">
+  <meta name="description" content="Windows updater for siegeptr MoP Classic addon compatibility fixes.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316261f'/%3E%3Cpath fill='%23f2c35b' d='M8 23V9h4l4 7 4-7h4v14h-4v-8l-3 5h-2l-3-5v8H8z'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -16,11 +16,12 @@
         <a class="active" href="updater.html">Windows updater</a>
       </nav>
       <p class="eyebrow">siegeptr / Windows updater</p>
-      <h1>Update PTR AddOns without unpacking zips</h1>
+      <h1>Update MoP AddOns without unpacking zips</h1>
       <p class="intro">An optional Windows helper that pulls the current siegeptr addon zips, backs up existing folders, and installs only the selected patched addon families.</p>
       <div class="updater-actions">
-        <a class="button primary" href="https://github.com/zridex/siegeptr/releases/download/updater-20260509-2220/SiegePTRUpdater.exe">Download updater <span>49 MB</span></a>
+        <a class="button primary" href="https://github.com/zridex/siegeptr/releases/download/updater-20260603-1316/SiegePTRUpdater.exe">Download updater <span>49 MB</span></a>
       </div>
+      <p class="download-hash">SHA256: <code>6D18F56B5BA1A36E2584F87C63C44274FDF7F05991504C3B741E2C373351DCB8</code></p>
     </header>
 
     <section class="updater-showcase" aria-label="Updater overview">
@@ -35,8 +36,8 @@
         </div>
         <div class="app-body">
           <div class="app-field">
-            <span>PTR AddOns folder</span>
-            <code>C:\Program Files (x86)\World of Warcraft\_classic_ptr_\Interface\AddOns</code>
+            <span>WoW AddOns folder</span>
+            <code>C:\Program Files (x86)\World of Warcraft\_classic_\Interface\AddOns</code>
           </div>
           <div class="app-packages">
             <div class="app-package checked">
@@ -50,10 +51,6 @@
             <div class="app-package checked">
               <span>Plater</span>
               <strong>current</strong>
-            </div>
-            <div class="app-package">
-              <span>WeakAuras</span>
-              <strong>not selected</strong>
             </div>
             <div class="app-package checked">
               <span>Details</span>
@@ -77,8 +74,8 @@
         <h2>How it works</h2>
         <p>The updater uses the same files as the manual downloads page. It just handles the folder replacement step for you.</p>
         <ol class="flow-list">
-          <li>Close the PTR client.</li>
-          <li>Open the updater and confirm the PTR AddOns folder.</li>
+          <li>Close the WoW client.</li>
+          <li>Open the updater and confirm the live or PTR AddOns folder.</li>
           <li>Click Check updates.</li>
           <li>Select the addon families you want.</li>
           <li>Click Update selected. Existing folders are backed up first.</li>

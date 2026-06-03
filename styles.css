@@ -152,7 +152,6 @@ h3 {
   font-weight: 750;
 }
 
-.bundle,
 .changelog,
 .download-item,
 .install,
@@ -162,17 +161,6 @@ h3 {
   background: var(--paper);
   border-radius: 8px;
   box-shadow: 0 16px 34px rgba(50, 42, 28, 0.06);
-}
-
-.bundle {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  margin: 18px 0 30px;
-  padding: 26px;
-  overflow: hidden;
 }
 
 .updater-entry {
@@ -198,15 +186,6 @@ h3 {
   color: var(--muted);
 }
 
-.bundle::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 6px;
-  background: linear-gradient(180deg, var(--accent), var(--gold));
-}
-
-.bundle p,
 .section-head p,
 .download-item p,
 .timeline-item p,
@@ -215,7 +194,6 @@ h3 {
   color: var(--muted);
 }
 
-.bundle-label,
 .section-label {
   display: inline-block;
   margin-bottom: 8px;
@@ -476,6 +454,18 @@ h3 {
   margin-top: 28px;
 }
 
+.download-hash {
+  max-width: 760px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.download-hash code {
+  overflow-wrap: anywhere;
+  color: var(--accent-dark);
+}
+
 .updater-showcase {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 344px;
@@ -679,7 +669,6 @@ h3 {
     padding: 22px 10px;
   }
 
-  .bundle,
   .updater-entry,
   .download-item {
     align-items: stretch;
@@ -691,7 +680,6 @@ h3 {
     width: 100%;
   }
 
-  .bundle,
   .download-item,
   .install,
   .changelog,
